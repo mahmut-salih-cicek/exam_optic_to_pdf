@@ -1,0 +1,46 @@
+name: pdf_create
+description: A new Flutter project.
+
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.2.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  pdf: ^1.6.1
+  pdf_viewer_plugin: ^1.0.0+2
+  path_provider: ^1.6.5
+  permission_handler: 
+  ext_storage: ^1.0.3
+  dio:
+  flutter_signin_button: ^1.1.0  
+  
+
+
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+
+  uses-material-design: true
+
+  assets:
+    - assets/fonts/
+
+
+  fonts:
+    - family: YazimStili
+      fonts:
+        - asset: assets/fonts/OpenSans-Regular.ttf
+        - asset: assets/fonts/OpenSans-Italic.ttf
+          style: italic
+        - asset: assets/fonts/OpenSans-Bold.ttf
+          weight: 700
